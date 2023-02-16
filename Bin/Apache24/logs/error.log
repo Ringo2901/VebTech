@@ -506,3 +506,43 @@ winnt:notice] [pid 11212:tid 388] AH00424: Parent: Received restart signal -- Re
 [Tue Feb 14 18:52:04.608453 2023] [mpm_winnt:notice] [pid 11212:tid 388] AH00418: Parent: Created child process 9012
 [Tue Feb 14 18:52:05.598149 2023] [mpm_winnt:notice] [pid 9012:tid 428] AH00354: Child: Starting 64 worker threads.
 [Tue Feb 14 18:52:08.259884 2023] [mpm_winnt:notice] [pid 11596:tid 452] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 11212:tid 388] AH00424: Parent: Received restart signal -- Restarting the server.
+AH00112: Warning: DocumentRoot [C:/Server/Data/htdocs/non_page] does not exist
+[Wed Feb 15 23:44:45.741055 2023] [mpm_winnt:notice] [pid 11212:tid 388] AH00455: Apache/2.4.55 (Win64) configured -- resuming normal operations
+[Wed Feb 15 23:44:45.741055 2023] [mpm_winnt:notice] [pid 11212:tid 388] AH00456: Apache Lounge VS17 Server built: Feb  9 2023 09:58:39
+[Wed Feb 15 23:44:45.741055 2023] [core:notice] [pid 11212:tid 388] AH00094: Command line: 'C:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/Bin/Apache24'
+[Wed Feb 15 23:44:45.746062 2023] [mpm_winnt:notice] [pid 11212:tid 388] AH00418: Parent: Created child process 16720
+AH00112: Warning: DocumentRoot [C:/Server/Data/htdocs/non_page] does not exist
+AH00112: Warning: DocumentRoot [C:/Server/Data/htdocs/non_page] does not exist
+[Wed Feb 15 23:44:46.724993 2023] [mpm_winnt:notice] [pid 16720:tid 424] AH00354: Child: Starting 64 worker threads.
+[Wed Feb 15 23:44:47.732216 2023] [mpm_winnt:notice] [pid 9012:tid 428] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 11212:tid 388] AH00424: Parent: Received restart signal -- Restarting the server.
+[Wed Feb 15 23:45:40.713812 2023] [mpm_winnt:notice] [pid 11212:tid 388] AH00455: Apache/2.4.55 (Win64) configured -- resuming normal operations
+[Wed Feb 15 23:45:40.713812 2023] [mpm_winnt:notice] [pid 11212:tid 388] AH00456: Apache Lounge VS17 Server built: Feb  9 2023 09:58:39
+[Wed Feb 15 23:45:40.713812 2023] [core:notice] [pid 11212:tid 388] AH00094: Command line: 'C:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/Bin/Apache24'
+[Wed Feb 15 23:45:40.716814 2023] [mpm_winnt:notice] [pid 11212:tid 388] AH00418: Parent: Created child process 1772
+[Wed Feb 15 23:45:41.702287 2023] [mpm_winnt:notice] [pid 1772:tid 424] AH00354: Child: Starting 64 worker threads.
+[Wed Feb 15 23:45:42.702972 2023] [mpm_winnt:notice] [pid 16720:tid 424] AH00364: Child: All worker threads have exited.
+[Wed Feb 15 23:46:31.084377 2023] [core:alert] [pid 1772:tid 1076] [client 127.0.0.1:60155] C:/Server/Data/htdocs/.htaccess: Invalid command 'Order', perhaps misspelled or defined by a module not included in the server configuration
+[Wed Feb 15 23:46:31.300391 2023] [core:alert] [pid 1772:tid 1076] [client 127.0.0.1:60190] C:/Server/Data/htdocs/.htaccess: Invalid command 'Order', perhaps misspelled or defined by a module not included in the server configuration, referer: http://www.nikita.aleksandrov:8080/
+[Wed Feb 15 23:46:34.961258 2023] [core:alert] [pid 1772:tid 1072] [client 127.0.0.1:60191] C:/Server/Data/htdocs/.htaccess: Invalid command 'Order', perhaps misspelled or defined by a module not included in the server configuration
+[Wed Feb 15 23:46:35.083264 2023] [core:alert] [pid 1772:tid 1072] [client 127.0.0.1:60195] C:/Server/Data/htdocs/.htaccess: Invalid command 'Order', perhaps misspelled or defined by a module not included in the server configuration, referer: http://www.nikita.aleksandrov:8080/
+[Wed Feb 15 23:46:46.996261 2023] [core:alert] [pid 1772:tid 1076] [client 127.0.0.1:60196] C:/Server/Data/htdocs/.htaccess: Invalid command 'Order', perhaps misspelled or defined by a module not included in the server configuration
+[Wed Feb 15 23:46:47.149270 2023] [core:alert] [pid 1772:tid 1076] [client 127.0.0.1:60202] C:/Server/Data/htdocs/.htaccess: Invalid command 'Order', perhaps misspelled or defined by a module not included in the server configuration, referer: http://www.nikita.aleksandrov:8080/admin_page
+[Wed Feb 15 23:46:50.377336 2023] [core:alert] [pid 1772:tid 1072] [client 127.0.0.1:60203] C:/Server/Data/htdocs/.htaccess: Invalid command 'Order', perhaps misspelled or defined by a module not included in the server configuration
+[Wed Feb 15 23:46:50.956119 2023] [core:alert] [pid 1772:tid 1072] [client 127.0.0.1:60206] C:/Server/Data/htdocs/.htaccess: Invalid command 'Order', perhaps misspelled or defined by a module not included in the server configuration
+[Wed Feb 15 23:46:51.083129 2023] [core:alert] [pid 1772:tid 1076] [client 127.0.0.1:60207] C:/Server/Data/htdocs/.htaccess: Invalid command 'Order', perhaps misspelled or defined by a module not included in the server configuration, referer: http://www.nikita.aleksandrov:8080/admin_page/
+[Wed Feb 15 23:47:02.384648 2023] [core:alert] [pid 1772:tid 1076] [client 127.0.0.1:60213] C:/Server/Data/htdocs/.htaccess: Invalid command 'Order', perhaps misspelled or defined by a module not included in the server configuration
+[Wed Feb 15 23:47:02.489653 2023] [core:alert] [pid 1772:tid 1072] [client 127.0.0.1:60214] C:/Server/Data/htdocs/.htaccess: Invalid command 'Order', perhaps misspelled or defined by a module not included in the server configuration, referer: http://www.nikita.aleksandrov:8080/admin_page/
+[Wed Feb 15 23:47:03.053499 2023] [core:alert] [pid 1772:tid 1072] [client 127.0.0.1:60215] C:/Server/Data/htdocs/.htaccess: Invalid command 'Order', perhaps misspelled or defined by a module not included in the server configuration
+[Wed Feb 15 23:47:03.150505 2023] [core:alert] [pid 1772:tid 1076] [client 127.0.0.1:60216] C:/Server/Data/htdocs/.htaccess: Invalid command 'Order', perhaps misspelled or defined by a module not included in the server configuration, referer: http://www.nikita.aleksandrov:8080/admin_page/
+[Wed Feb 15 23:47:31.408501 2023] [core:alert] [pid 1772:tid 1076] [client 127.0.0.1:60229] C:/Server/Data/htdocs/.htaccess: Invalid command 'Order', perhaps misspelled or defined by a module not included in the server configuration
+[Wed Feb 15 23:47:31.509544 2023] [core:alert] [pid 1772:tid 1072] [client 127.0.0.1:60230] C:/Server/Data/htdocs/.htaccess: Invalid command 'Order', perhaps misspelled or defined by a module not included in the server configuration, referer: http://www.nikita.aleksandrov:8080/admin_page/
+[Wed Feb 15 23:47:32.131508 2023] [core:alert] [pid 1772:tid 1072] [client 127.0.0.1:60231] C:/Server/Data/htdocs/.htaccess: Invalid command 'Order', perhaps misspelled or defined by a module not included in the server configuration
+[Wed Feb 15 23:47:32.230515 2023] [core:alert] [pid 1772:tid 1076] [client 127.0.0.1:60232] C:/Server/Data/htdocs/.htaccess: Invalid command 'Order', perhaps misspelled or defined by a module not included in the server configuration, referer: http://www.nikita.aleksandrov:8080/admin_page/
+[Wed Feb 15 23:50:27.429328 2023] [core:alert] [pid 1772:tid 1076] [client 127.0.0.1:60359] C:/Server/Data/htdocs/.htaccess: Invalid command 'Order', perhaps misspelled or defined by a module not included in the server configuration, referer: http://www.nikita.aleksandrov:8080/admin_page/
+[Wed Feb 15 23:53:27.606711 2023] [core:alert] [pid 1772:tid 1072] [client 127.0.0.1:60512] C:/Server/Data/htdocs/.htaccess: Invalid command 'Order', perhaps misspelled or defined by a module not included in the server configuration, referer: http://www.nikita.aleksandrov:8080/admin_page/
